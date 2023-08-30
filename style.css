@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    font-family: "Outfit",sans-serif;
+}
+.box, form{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 50px 0;
+}
+.task{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+#deletebtn{
+    background-color: red;
+    border: none;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+}
+.taskname{
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.taskdescription{
+    font-size: small;
+    font-weight: 400;
+}
+#task, #tasktodo {
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+}
+#btn{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(34, 34, 34);
+    color: aliceblue;
+    border: none;
+}
